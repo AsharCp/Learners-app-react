@@ -1,0 +1,21 @@
+.ask-page{
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+}
+textarea{
+    resize: none;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.question_submit_btn{
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color:orange;
+    padding: 10px 20px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+}

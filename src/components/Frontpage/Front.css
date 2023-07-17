@@ -1,0 +1,17 @@
+.front-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.front-container button{
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 200px;
+    margin-bottom:160px;
+}
