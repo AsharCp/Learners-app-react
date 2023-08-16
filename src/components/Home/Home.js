@@ -13,18 +13,20 @@ function Home() {
 
   return (
     <div className='Home-container'>
-        <div className='ask-question-btn'>
+      <h1>Find Solutions For Your Problems!</h1>
+      <div className='button-container'>
+      <div className='ask-question-btn'>
             <button onClick={handleAskPage}>Ask<br/>Question</button>
-
         </div>
+        <img src='..\book.jpg' className='book_image'></img>
         <div className='post-question-btn'>
-        <button onClick={handleSolvePage}>Solve<br/>Question</button>
-
+            <button onClick={handleSolvePage}>Solve<br/>Question</button>
         </div>
-        <div className='search-question-btn'>
-        <button>Search<br/>Answer</button>
-
-        </div>
+        
+      </div>
+      
+        
+        
       
     </div>
   )

@@ -11,7 +11,7 @@ function Front() {
             if (user)
              {
                 window.location='/home'
-              const uid = user.uid;
+                const uid = user.uid;
             } else 
             {
                     window.location='/signup'
@@ -21,9 +21,25 @@ function Front() {
     }
     
   return (
-    <div className='front-container'>
-        <button onClick={handleGetStarted}>Get Started</button>
+    <div>
+      <div className='main-container'>
+        <div className='text-container'>
+        <h1 className='text'>Learners<br></br>A Great Place<br></br>to Learn</h1>
+        <button className='front-container-button' onClick={handleGetStarted}>Get Started</button>
+      </div>
+        
+        <img src='..\student.png' className='image'></img>
+        
+      
+
+      </div>
+      
+
+
+
+      
     </div>
+    
   )
 }
 

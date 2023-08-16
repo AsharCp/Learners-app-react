@@ -1,15 +1,17 @@
 .header-container{
     display: flex;
-    background-color: #151a1f;
-    color: #fff;
+    background-color: #2BAE66FF;
+    color: #FCF6F5FF;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    
 }
 .navbar-nav{
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    
 
 
 }
@@ -28,10 +30,22 @@
 .heading-name{
     font-size: 24px;
     font-weight: bold;
-    /* margin-left: 15px; */
     margin: 0;
+    margin-left: 6px;
 }
 .logout-btn{
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #FCF6F5FF;
+    color:#2BAE66FF;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    /* visibility: hidden; */
+
+}
+.logout-btn-not{
     border: none;
     padding: 10px 20px;
     margin-right: 10px;
@@ -39,5 +53,7 @@
     color: #fff;
     cursor: pointer;
     border-radius: 5px;
+    visibility: hidden;
 
 }
+

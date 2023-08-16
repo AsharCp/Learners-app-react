@@ -22,14 +22,14 @@ const handleSignup=()=>{
     const [password,setPassword] = useState("")
   return (
     <div>
-        <div className='main-container'>
+        <div className='signup-container'>
         <div className='heading-paragraph'>
             <h1>Learners</h1>
         </div>
             <div className='sign-up-container'>
                 <h1>Sign Up</h1>
                 <input type='text' placeholder='Email' onChange={(event)=>{setEmail(event.target.value)}}></input>
-                <input type='text' placeholder='Password' onChange={(event)=>{setPassword(event.target.value)}}></input>
+                <input type='password' placeholder='Password' onChange={(event)=>{setPassword(event.target.value)}}></input>
                 <button onClick={handleSignup} className='signup-btn'>Sign Up</button>
                 <div className='remember'>
                 <p>Already have an account?&nbsp;<span ><Link to='/signin' className='link-text'>Sign In</Link></span></p>

@@ -22,13 +22,22 @@ function Ask() {
     // setQuestion('')
   }
 
+  const handleBack=()=>{
+    console.log("hello")
+    window.location='/Home'
+  }
+
 
 
   return (
     <div className='ask-page'>
         <h1 className='ask-head'>Ask Your Problem</h1>
         <textarea  type='text' rows={20} cols={100} placeholder='Enetr Your Question'spellCheck='false' onChange={handleData}/>
-        <button className='question_submit_btn' onClick={addData}>Submit</button>
+        <div className='buttons'>
+          <button className='question_submit_btn' onClick={addData}>Submit</button>
+          <button className='back' onClick={handleBack}>Back</button>
+        </div>
+        
       
     </div>
   )

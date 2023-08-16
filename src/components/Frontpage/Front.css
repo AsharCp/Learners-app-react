@@ -1,17 +1,40 @@
-.front-container{
+.main-container{
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content:center; */
+    flex-direction: row;
+    /* background-color: yellow; */
+
 }
-.front-container button{
+
+.front-container-button{
     border: none;
-    background-color: #000;
+    background-color: #2BAE66FF;
     color: #fff;
     padding: 10px 20px;
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
     border-radius: 30px;
-    margin-top: 200px;
-    margin-bottom:160px;
+    /* margin-top: 0px; */
+    /* margin-bottom:160px; */
+}
+.text{
+    font-size: 56px;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #000;
+    padding-bottom: 10px;
+    line-height: 60px;
+
+}
+.image{
+    margin-left: 200px;
+}
+.text-container{
+    /* margin-top: 50px; */
+    /* background-color: yellow; */
+    margin-left: 150px;
+    gap: 0;
 }

@@ -23,24 +23,20 @@ const handleSignin=()=>{
     const [user,setUser]=useState("")
 
   return (
-    <div className='main-container'>
+    <div className='signin-container'>
         <div className='heading-paragraph'>
             <h1>Learners</h1>
         </div>
             <div className='sign-in-container'>
                 <h1>Sign In</h1>
                 <input type='text' placeholder='Email' onChange={(event)=>{setLoginEmail(event.target.value)}}></input>
-                <input type='text' placeholder='Password' onChange={(event)=>{setLoginPassword(event.target.value)}}></input>
+                <input type='password' placeholder='Password' onChange={(event)=>{setLoginPassword(event.target.value)}}></input>
                 <button onClick={handleSignin} className='signin-btn'>Sign In</button>
                 <div className='remember'>
                 <p>Don't have an account?&nbsp;<span><Link to='/signup' className='link-text'>Sign Up</Link></span></p>
                 <p>Forgot Password?&nbsp;<span ><Link to='/reset' className='link-text'>Reset here</Link></span></p>
-                </div>
-
-                
+                </div>  
             </div>
-            
-      
     </div>
 
   )
